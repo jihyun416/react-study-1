@@ -1,10 +1,16 @@
 import './App.css';
 
 function App() {
-  const name = undefined;
+  const name = '리액트';
   return (
-    <div>
-      {name || '리액트'}
+    <div style={{
+      backgroundColor: 'black',
+      color: 'aqua',
+      fontSize: '48px',
+      fontWeight: 'bold',
+      padding: 16
+    }}>
+      {name}
     </div>
   );
 }
