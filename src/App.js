@@ -1,10 +1,10 @@
 import './App.css';
 
 function App() {
-  const name = '뤼액트';
+  const name = undefined;
   return (
     <div>
-      {name === '리액트' && <h1>리액트입니다.</h1>}
+      {name || '리액트'}
     </div>
   );
 }
